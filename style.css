@@ -1,4 +1,10 @@
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 head{
     background-color: rgb(4, 4, 44);
     color: white;
@@ -7,19 +13,31 @@ body{
     background-color: rgb(4, 4, 44);
     color: white;
 }
-/*h1{
-    color: aqua;
-}
 
-p{
-    
-    color: deeppink;
+a.button:visited{
+    color:inherit;
+   }
+   
+.wrapper{
+    margin-left: 5vw;
+    margin-top: 2vw;
+
 }
-*/
 
 /* sidenav */
 
+
+.sidenav h1{
+margin-top: 2vw;
+}
+
+
 .wrapper .sidenav{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    margin-left: 0px;
     position: fixed;
 
     left: 0;
@@ -31,8 +49,17 @@ p{
 
 }
 
+.wrapper .sidenav ul{
+    width: 100%;
+    margin-top: 2vw;
+    list-style: none;
+    text-align: center;
+}
+
+
+
 .wrapper .content{
-    width: 50vw;
+    width: 30vw;
     margin-left: 20vw;
     text-align: justify;
 }
