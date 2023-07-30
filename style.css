@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(4, 4, 44);
+    color: white;
+}
+/*h1{
+    color: aqua;
+}
+
+p{
+    
+    color: deeppink;
+}
+*/
+
+/* sidenav */
+
+.wrapper .sidenav{
+    position: fixed;
+
+    left: 0;
+    top: 0;
+    width: 20vw;
+    height: 100vh;
+    border-right: solid;
+        border-right-color: white;
+
+}
+
+.wrapper .content{
+    width: 80vw;
+    margin-left: 20vw;
+}
